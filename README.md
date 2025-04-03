@@ -1,4 +1,5 @@
-🔒 Sistema de Autenticação em C#
+🔒 Sistema de Autenticação em C#.
+
 Este é um sistema simples de autenticação em C#, que permite registrar usuários e armazená-los em um repositório interno.
 
 🚀 Funcionalidades
