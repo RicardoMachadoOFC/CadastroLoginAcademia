@@ -1,35 +1,28 @@
-🔒 Sistema de Autenticação em C#.
+# 🏋️ Sistema de Cadastro e Login para Academia
 
-Este é um sistema simples de autenticação em C#, que permite registrar usuários e armazená-los em um repositório interno.
+## 📋 Descrição
 
-🚀 Funcionalidades
+Este projeto é um sistema simples de autenticação desenvolvido em **C#**, projetado para gerenciar o cadastro e login de usuários em uma academia. Ele permite o registro de novos membros, armazenando suas informações de forma segura e verificando credenciais durante o processo de login.
 
-✅ Registrar usuários com nome, e-mail e senha
+## ⚙️ Funcionalidades
 
-✅ Verificar se o e-mail já está cadastrado antes de registrar
+✅ **Cadastro de Usuários**: Permite que novos membros se registrem fornecendo **nome, e-mail e senha**.  
+✅ **Verificação de E-mail**: Garante que o **e-mail fornecido não esteja cadastrado** previamente, evitando duplicidade.  
+✅ **Armazenamento Seguro**: As senhas são **armazenadas utilizando hashing** para garantir a segurança dos dados.  
+✅ **Simulação de Banco de Dados**: Utiliza uma **lista interna** para armazenar os usuários, simulando um banco de dados real.  
 
-✅ Armazenar os usuários em uma lista interna (simulando um banco de dados)
+---
 
-✅ Hash de senha para maior segurança
+## 🛠️ Tecnologias Utilizadas
 
-🛠️ Tecnologias Utilizadas
-C#
+- 🖥️ **Linguagem**: `C#`
+- 🏗️ **Framework**: `.NET`
+- 🎯 **Paradigma**: `Programação Orientada a Objetos (POO)`
 
-.NET
+---
 
-Programação Orientada a Objetos (POO)
+## 🚀 Como Executar
 
-
-📝 Melhorias Futuras
-
-🔹 Implementar a funcionalidade de login com verificação de senha
-
-🔹 Utilizar um banco de dados real para armazenar os usuários
-
-🔹 Melhorar a segurança do armazenamento das senhas
-
-🤝 Contribuição
-Sinta-se à vontade para contribuir com melhorias! Basta fazer um fork do projeto, criar uma branch e abrir um pull request.
-
-
-
+1️⃣ **Clone o repositório**  
+```sh
+git clone https://github.com/RicardoMachadoOFC/CadastroLoginAcademia.git
